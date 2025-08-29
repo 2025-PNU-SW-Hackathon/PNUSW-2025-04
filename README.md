@@ -40,36 +40,34 @@
 
 ### 2.상세설계
 #### 2.1. 시스템 구성도
-<img width="600px" alt="시스템 구성도" src="https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/f0e7c7ed-deb1-47ee-8090-32f712fa2b23">
+<img width="600px" alt="시스템 구성도" src="./docs/image3.png">
 <br/>
 
 #### 2.3. 사용기술
-| 이름                  | 버전    |
-|:---------------------:|:-------:|
-| Python                | 3.8.0   |
-| Django                | 3.2.9   |
-| Django Rest Framework | 3.12.0  |
-| Node.js               | 16.16.0 |
-| Vue.js                | 2.5.13  |
+| 이름                  | 버전    | 용도 |
+|:---------------------:|:-------:|:-----|
+| Python                | 3.11.0  | 백엔드 메인 언어 |
+| FastAPI               | 0.104.0 | API 서버 프레임워크 |
+| FastMCP               | 1.0.0   | 음성 처리 및 통신 |
+| OpenAI                | 1.3.0   | AI 모델 연동 |
+| Next.js               | 14.0.0  | 프론트엔드 프레임워크 |
+| React                 | 18.2.0  | UI 컴포넌트 |
+| TypeScript            | 5.2.0   | 타입 안전성 |
+| Tailwind CSS          | 3.3.0   | 스타일링 |
+| PostgreSQL            | 15.0    | 데이터베이스 |
 <br/>
 
 
 ### 3. 개발결과
 #### 3.1. 전체시스템 흐름도
 - 유저 플로우 차트
-  > 코딩 역량강화 플랫폼의 회원가입 부분만 작성했습니다. <br/>
-  > 사용자의 행동 흐름을 도식화하여 보여줍니다.
   <img width="400px" alt="유저 플로우 차트" src="https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/c8de7c98-efd8-4f64-a39a-720faabccd78" />
 
 - 테스크 플로우 차트
-  > 코딩 역량강화 플랫폼의 로그인 부분만 작성했습니다. <br/>
-  > 주요 테스크의 프로세스를 도식화하여 보여줍니다.
   <img width="400px" alt="테스크 플로우 차트" src="https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/b83502a9-032d-4453-8687-428d54643610" />
 
 - 시스템 플로우 차트
-  > 코딩 역량강화 플랫폼의 로그인 부분만 작성했습니다. <br/>
-  > 테스크의 흐름에 따른 데이터 처리를 도식화하여 보여줍니다.
-  <img width="600px" alt="시스템 플로우 차트" src="https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/1bfb66f0-446c-4450-8a81-a78bfe5ac9ce" />
+  <img width="600px" alt="시스템 플로우 차트" src="./docs/image3.png" />
 
 
 <br/>
@@ -150,7 +148,9 @@
 
 
 ### 5. 소개 및 시연영상
-[<img width="700px" alt="소개 및 시연영상" src="https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/162132cd-9af5-4154-9b9a-41c96cf5e8fd" />](https://www.youtube.com/watch?v=EfEgTrm5_u4)
+<video width="700" controls>
+  <source src="./docs/demo.mp4" type="video/mp4">
+</video>
 
 <br/>
 
